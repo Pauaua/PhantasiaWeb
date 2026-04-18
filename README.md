@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Phantasia — Website
 
-## Getting Started
+**La imagen que tu mente concibe, hecha código.**
 
-First, run the development server:
+Sitio web corporativo de [Phantasia](https://phantasia.cl), estudio de diseño y desarrollo de software.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🔗 **Demo:** [phantasia-web.vercel.app/es](https://phantasia-web.vercel.app/es)
+
+---
+
+## Stack
+
+| Tecnología | Uso |
+|---|---|
+| Next.js 16 (App Router) | Framework principal |
+| TypeScript | Tipado estático |
+| Tailwind CSS v4 | Estilos con CSS variables |
+| PostgreSQL + Prisma 7 | Base de datos (Neon) |
+| Resend | Envío de emails |
+| Vercel | Deploy y hosting |
+
+---
+
+## Características
+
+- **Multilenguaje** — ES, EN, FR con routing automático por locale (`/es`, `/en`, `/fr`)
+- **Dark / Light mode** — detecta preferencia del sistema, persiste en `localStorage`
+- **Landing page completa** — Hero, Sobre, Servicios, Proceso, Precios, Onboarding
+- **Formulario de 6 pasos** — captura leads, guarda en BD y envía notificación por email
+- **Totalmente responsive** — mobile, tablet y desktop
+
+---
+
+## Variables de entorno
+
+```env
+DATABASE_URL="postgresql://..."
+RESEND_API_KEY="re_..."
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Licencia
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desarrolladora única. Todos los derechos reservados.
