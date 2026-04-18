@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import { prisma } from "@/lib/prisma";
+import { Resend } from "resend";
 
 export async function POST(req: NextRequest) {
   try {
@@ -24,9 +26,6 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    // Dynamic import to avoid build errors when DB is not connected
-    const { prisma } = await import("@/lib/prisma");
-
     await prisma.projectInquiry.create({
       data: {
         projectType: JSON.stringify(projectType),
@@ -44,11 +43,10 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    // Send email notification if Resend is configured
+    // Send email notification
     const resendKey = process.env.RESEND_API_KEY;
-    if (resendKey && resendKey !== "re_placeholder") {
+    if (resendKey) {
       try {
-        const { Resend } = await import("resend");
         const resend = new Resend(resendKey);
         await resend.emails.send({
           from: "Phantasia <noreply@phantasia.cl>",

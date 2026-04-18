@@ -1,21 +1,19 @@
 generator client {
   provider = "prisma-client-js"
-  output   = "../app/generated/prisma"
 }
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  provider = "postgresql"
 }
 
 model ProjectInquiry {
   id               Int      @id @default(autoincrement())
-  projectType      String   @db.Text
+  projectType      String
   currentSituation String
   businessName     String
-  businessDesc     String   @db.Text
-  problemSolving   String   @db.Text
-  features         String   @db.Text
+  businessDesc     String
+  problemSolving   String
+  features         String
   budget           String
   timeline         String
   contactName      String
