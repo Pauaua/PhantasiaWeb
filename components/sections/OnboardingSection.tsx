@@ -126,6 +126,7 @@ export default function OnboardingSection({ dict, lang }: OnboardingProps) {
   return (
     <section
       id="proyecto"
+      className="onboarding-section"
       style={{ background: "var(--bg)", padding: "7rem 2rem" }}
     >
       <div
@@ -182,6 +183,7 @@ export default function OnboardingSection({ dict, lang }: OnboardingProps) {
 
         {/* Form card */}
         <div
+          className="onboarding-card"
           style={{
             background: "var(--surface)",
             border: "1px solid var(--border)",
@@ -343,6 +345,33 @@ export default function OnboardingSection({ dict, lang }: OnboardingProps) {
         @media (max-width: 900px) {
           .onboarding-grid {
             grid-template-columns: 1fr !important;
+            gap: 2.5rem !important;
+          }
+          .onboarding-grid > div:first-child {
+            position: static !important;
+          }
+        }
+        @media (max-width: 600px) {
+          .onboarding-section {
+            padding: 4rem 1.25rem !important;
+          }
+          .onboarding-card {
+            padding: 1.5rem 1.25rem !important;
+          }
+          .step1-grid {
+            grid-template-columns: 1fr !important;
+          }
+          .progress-circle {
+            width: 22px !important;
+            height: 22px !important;
+          }
+          .progress-label {
+            font-size: 10px !important;
+          }
+          .timeline-item {
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            gap: 4px !important;
           }
         }
       `}</style>
@@ -361,6 +390,7 @@ function ProgressBar({ current, total, labels }: { current: number; total: numbe
         return (
           <div key={n} style={{ display: "flex", alignItems: "center", flex: n < total ? 1 : "none" }}>
             <div
+              className="progress-circle"
               style={{
                 width: "28px",
                 height: "28px",
@@ -413,7 +443,7 @@ function Step1({ stepData, selected, onChange }: {
     <div>
       <h3 style={{ fontFamily: "Cinzel, serif", fontSize: "16px", fontWeight: 500, color: "var(--text-1)", marginBottom: "0.5rem", letterSpacing: "0.04em" }}>{stepData.title}</h3>
       <p style={{ fontFamily: "Outfit, sans-serif", fontSize: "13px", color: "var(--text-3)", marginBottom: "1.5rem" }}>{stepData.subtitle}</p>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
+      <div className="step1-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
         {stepData.options.map((opt) => {
           const active = selected.includes(opt.value);
           return (
@@ -617,6 +647,7 @@ function Step5({ stepData, budget, timeline, onBudget, onTimeline }: {
               <div
                 key={t.value}
                 onClick={() => onTimeline(t.value)}
+                className="timeline-item"
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "space-between",
                   background: active ? "var(--accent)" : "var(--surface2)",
