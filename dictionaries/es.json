@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "process": "Proceso",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "cta": "Cuéntanos"
+  },
+  "hero": {
+    "title_1": "La imagen que tu mente concibe,",
+    "title_2": "hecha código",
+    "subtitle": "Diseñamos y desarrollamos sitios web, aplicaciones y software a medida con precisión deliberada — donde cada decisión tiene una razón.",
+    "cta_primary": "Iniciar proyecto",
+    "cta_secondary": "Ver servicios",
+    "scroll": "SCROLL"
+  },
+  "quote": {
+    "symbol": "φ",
+    "greek": "φαντασία",
+    "text": "La representación mental de aquello que aún no existe en el mundo físico, pero que ya es real en la mente."
+  },
+  "about": {
+    "tag": "El nombre",
+    "title": "Por qué Phantasia",
+    "body_1": "En la filosofía aristotélica, <em>phantasía</em> (φαντασία) es la capacidad de la mente para producir imágenes internas — representaciones de lo que aún no es visible al mundo, pero que ya existe con claridad en el pensamiento.",
+    "body_2": "Ese es exactamente nuestro trabajo: tomar la imagen que tienes en mente — tu idea, tu negocio, tu visión — y hacerla real a través del código.",
+    "etymology": "Del griego antiguo φαντασία (phantasía): imaginación, imagen mental, aparición."
+  },
+  "services": {
+    "tag": "Servicios",
+    "title": "¿Qué construimos juntos?",
+    "items": [
+      {
+        "category": "Web",
+        "name": "Sitios web",
+        "description": "Desde landings de alto impacto hasta plataformas corporativas complejas. Diseñadas para convertir, con identidad visual precisa y experiencia de usuario impecable.",
+        "tags": ["Next.js", "React", "Tailwind", "CMS"]
+      },
+      {
+        "category": "App",
+        "name": "Aplicaciones",
+        "description": "Plataformas web y móviles que resuelven problemas reales. Dashboards, SaaS, herramientas internas — construidas para escalar con tu negocio.",
+        "tags": ["React", "Node.js", "MySQL", "API REST"]
+      },
+      {
+        "category": "Software",
+        "name": "Software a medida",
+        "description": "Sistemas personalizados que se adaptan a tus procesos únicos. Automatización, integraciones, lógica de negocio específica — sin compromisos.",
+        "tags": ["Node.js", "Python", "MySQL", "Integraciones"]
+      }
+    ]
+  },
+  "process": {
+    "tag": "Proceso",
+    "title": "Cómo trabajamos",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Escucha y comprensión",
+        "description": "Antes de escribir una sola línea de código, entendemos tu negocio, tus usuarios y el problema real que necesitas resolver."
+      },
+      {
+        "number": "02",
+        "title": "Propuesta y arquitectura",
+        "description": "Diseñamos la solución técnica y visual — stack, estructura, flujos — con claridad y justificación de cada decisión."
+      },
+      {
+        "number": "03",
+        "title": "Diseño y prototipo",
+        "description": "Construimos el visual antes de desarrollar. Cada pantalla validada contigo antes de avanzar al código."
+      },
+      {
+        "number": "04",
+        "title": "Desarrollo iterativo",
+        "description": "Trabajamos en ciclos cortos con entregas frecuentes. Ves el avance en tiempo real, no solo al final."
+      },
+      {
+        "number": "05",
+        "title": "QA y lanzamiento",
+        "description": "Pruebas exhaustivas en dispositivos y navegadores reales. Deploy limpio, sin sorpresas el día de salida."
+      },
+      {
+        "number": "06",
+        "title": "Soporte post-lanzamiento",
+        "description": "No desaparecemos al entregar. Acompañamos el proyecto, corregimos lo que surja y evolucionamos contigo."
+      }
+    ]
+  },
+  "pricing": {
+    "tag": "Precios",
+    "title": "Inversión por servicio",
+    "note": "Todos los precios en CLP. Cotización exacta según requerimientos.",
+    "items": [
+      {
+        "tier": "Esencial",
+        "name": "Sitio web",
+        "price": "$800K – $2M",
+        "featured": false,
+        "features": [
+          "Diseño UI personalizado",
+          "Hasta 6 secciones",
+          "Responsive completo",
+          "SEO técnico base",
+          "Formulario de contacto",
+          "Deploy en Vercel"
+        ]
+      },
+      {
+        "tier": "Profesional",
+        "name": "Aplicación web",
+        "price": "$2M – $6M",
+        "featured": true,
+        "label": "Más popular",
+        "features": [
+          "Todo lo anterior",
+          "Login de usuarios",
+          "Panel / dashboard",
+          "Base de datos MySQL",
+          "API REST",
+          "Integraciones externas",
+          "Soporte 2 meses"
+        ]
+      },
+      {
+        "tier": "Enterprise",
+        "name": "Software a medida",
+        "price": "Desde $6M",
+        "featured": false,
+        "features": [
+          "Todo lo anterior",
+          "Arquitectura a medida",
+          "Automatizaciones",
+          "Múltiples módulos",
+          "Capacitación incluida",
+          "Soporte extendido"
+        ]
+      }
+    ]
+  },
+  "onboarding": {
+    "tag": "Proyecto",
+    "sidebar_title": "Cuéntanos sobre tu proyecto",
+    "sidebar_body": "Responde algunas preguntas y te enviamos una propuesta personalizada en menos de 48 horas.",
+    "steps": {
+      "labels": ["Tipo", "Situación", "Detalles", "Funciones", "Inversión", "Contacto"],
+      "step1": {
+        "title": "¿Qué tipo de proyecto necesitas?",
+        "subtitle": "Puedes seleccionar más de una opción.",
+        "options": [
+          { "value": "web", "label": "Sitio web", "desc": "Landing, corporativo, e-commerce, CMS" },
+          { "value": "app", "label": "Aplicación web", "desc": "Dashboard, plataforma, SaaS, sistema interno" },
+          { "value": "mobile", "label": "App móvil", "desc": "iOS, Android" },
+          { "value": "software", "label": "Software a medida", "desc": "Sistemas, automatización, integraciones" }
+        ]
+      },
+      "step2": {
+        "title": "¿Cuál es tu situación actual?",
+        "options": [
+          { "value": "nothing", "label": "No tengo nada actualmente" },
+          { "value": "bad_web", "label": "Tengo una web que no me representa" },
+          { "value": "redesign", "label": "Quiero rediseñar algo existente" },
+          { "value": "new_features", "label": "Necesito funcionalidades nuevas" },
+          { "value": "idea_only", "label": "Tengo solo la idea, sin nada construido" }
+        ]
+      },
+      "step3": {
+        "title": "Cuéntanos sobre tu proyecto",
+        "fields": {
+          "business_name": "Nombre del negocio o proyecto",
+          "business_desc": "¿Qué hace tu negocio?",
+          "problem": "¿Qué problema resuelve este proyecto?"
+        }
+      },
+      "step4": {
+        "title": "¿Qué funcionalidades necesitas?",
+        "subtitle": "Selecciona todo lo que aplique.",
+        "options": [
+          "Diseño desde cero",
+          "Editar contenido yo mismo (CMS)",
+          "Login de usuarios",
+          "Pagos en línea",
+          "Tienda / catálogo",
+          "Agendamiento / reservas",
+          "Panel / dashboard",
+          "Reportes y métricas",
+          "Integración con otros sistemas",
+          "Notificaciones por email",
+          "Multilenguaje",
+          "SEO y visibilidad Google",
+          "Animaciones premium",
+          "No lo sé aún"
+        ]
+      },
+      "step5": {
+        "title": "Presupuesto y plazo",
+        "budget_label": "Presupuesto aproximado",
+        "timeline_label": "¿Cuándo necesitas el proyecto?",
+        "timelines": [
+          { "value": "urgent", "label": "Urgente", "desc": "Menos de 3 semanas · +30-50%" },
+          { "value": "1-2mo", "label": "1 a 2 meses", "desc": "Proyectos estándar" },
+          { "value": "2-4mo", "label": "2 a 4 meses", "desc": "Proyectos complejos" },
+          { "value": "open", "label": "Sin fecha definida", "desc": "Lo más económico" }
+        ]
+      },
+      "step6": {
+        "title": "¿Cómo te contactamos?",
+        "fields": {
+          "name": "Nombre",
+          "email": "Correo electrónico"
+        },
+        "contact_methods": [
+          { "value": "email_only", "label": "Solo email — sin llamadas" },
+          { "value": "whatsapp", "label": "WhatsApp está bien para coordinar" },
+          { "value": "videocall", "label": "Prefiero una videollamada directamente" }
+        ]
+      }
+    },
+    "buttons": {
+      "next": "Siguiente",
+      "back": "Volver",
+      "submit": "Enviar solicitud"
+    },
+    "success": {
+      "title": "Solicitud recibida",
+      "subtitle": "Te contactaremos en menos de 48 horas.",
+      "steps": [
+        "Revisamos tu solicitud en detalle",
+        "Preparamos una propuesta personalizada",
+        "Te contactamos para coordinar una llamada",
+        "Comenzamos a trabajar juntos"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "La imagen que tu mente concibe, hecha código.",
+    "email": "hola@phantasia.cl",
+    "site": "phantasia.cl",
+    "rights": "Todos los derechos reservados."
+  }
+}

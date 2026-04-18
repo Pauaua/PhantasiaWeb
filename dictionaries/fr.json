@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "process": "Processus",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "cta": "Parlez-nous"
+  },
+  "hero": {
+    "title_1": "L'image que votre esprit conçoit,",
+    "title_2": "traduite en code",
+    "subtitle": "Nous concevons et développons des sites web, applications et logiciels sur mesure avec une précision délibérée — où chaque décision a une raison d'être.",
+    "cta_primary": "Démarrer un projet",
+    "cta_secondary": "Voir les services",
+    "scroll": "DÉFILER"
+  },
+  "quote": {
+    "symbol": "φ",
+    "greek": "φαντασία",
+    "text": "La représentation mentale de ce qui n'existe pas encore dans le monde physique, mais qui est déjà réel dans l'esprit."
+  },
+  "about": {
+    "tag": "Le nom",
+    "title": "Pourquoi Phantasia",
+    "body_1": "Dans la philosophie aristotélicienne, <em>phantasía</em> (φαντασία) est la capacité de l'esprit à produire des images internes — des représentations de ce qui n'est pas encore visible au monde, mais qui existe déjà avec clarté dans la pensée.",
+    "body_2": "C'est exactement notre travail : prendre l'image que vous avez en tête — votre idée, votre entreprise, votre vision — et la rendre réelle à travers le code.",
+    "etymology": "Du grec ancien φαντασία (phantasía) : imagination, image mentale, apparition."
+  },
+  "services": {
+    "tag": "Services",
+    "title": "Que construisons-nous ensemble ?",
+    "items": [
+      {
+        "category": "Web",
+        "name": "Sites web",
+        "description": "Des landings à fort impact aux plateformes d'entreprise complexes. Conçus pour convertir, avec une identité visuelle précise et une expérience utilisateur impeccable.",
+        "tags": ["Next.js", "React", "Tailwind", "CMS"]
+      },
+      {
+        "category": "App",
+        "name": "Applications",
+        "description": "Plateformes web et mobiles qui résolvent des problèmes réels. Tableaux de bord, SaaS, outils internes — construits pour évoluer avec votre entreprise.",
+        "tags": ["React", "Node.js", "MySQL", "API REST"]
+      },
+      {
+        "category": "Logiciel",
+        "name": "Logiciel sur mesure",
+        "description": "Systèmes personnalisés qui s'adaptent à vos processus uniques. Automatisation, intégrations, logique métier spécifique — sans compromis.",
+        "tags": ["Node.js", "Python", "MySQL", "Intégrations"]
+      }
+    ]
+  },
+  "process": {
+    "tag": "Processus",
+    "title": "Comment nous travaillons",
+    "steps": [
+      { "number": "01", "title": "Écoute et compréhension", "description": "Avant d'écrire une seule ligne de code, nous comprenons votre entreprise, vos utilisateurs et le vrai problème à résoudre." },
+      { "number": "02", "title": "Proposition et architecture", "description": "Nous concevons la solution technique et visuelle — stack, structure, flux — avec clarté et justification de chaque décision." },
+      { "number": "03", "title": "Design et prototype", "description": "Nous construisons le visuel avant de développer. Chaque écran validé avec vous avant de passer au code." },
+      { "number": "04", "title": "Développement itératif", "description": "Nous travaillons en cycles courts avec des livraisons fréquentes. Vous voyez la progression en temps réel, pas seulement à la fin." },
+      { "number": "05", "title": "QA et lancement", "description": "Tests exhaustifs sur des appareils et navigateurs réels. Déploiement propre, sans surprises le jour du lancement." },
+      { "number": "06", "title": "Support post-lancement", "description": "Nous ne disparaissons pas à la livraison. Nous accompagnons le projet, corrigeons ce qui survient et évoluons avec vous." }
+    ]
+  },
+  "pricing": {
+    "tag": "Tarifs",
+    "title": "Investissement par service",
+    "note": "Tous les prix en CLP. Devis exact selon les exigences.",
+    "items": [
+      {
+        "tier": "Essentiel",
+        "name": "Site web",
+        "price": "$800K – $2M",
+        "featured": false,
+        "features": ["Design UI personnalisé", "Jusqu'à 6 sections", "Responsive complet", "SEO technique de base", "Formulaire de contact", "Deploy sur Vercel"]
+      },
+      {
+        "tier": "Professionnel",
+        "name": "Application web",
+        "price": "$2M – $6M",
+        "featured": true,
+        "label": "Le plus populaire",
+        "features": ["Tout ce qui précède", "Connexion utilisateur", "Tableau de bord", "Base de données MySQL", "API REST", "Intégrations externes", "Support 2 mois"]
+      },
+      {
+        "tier": "Entreprise",
+        "name": "Logiciel sur mesure",
+        "price": "À partir de $6M",
+        "featured": false,
+        "features": ["Tout ce qui précède", "Architecture sur mesure", "Automatisations", "Modules multiples", "Formation incluse", "Support étendu"]
+      }
+    ]
+  },
+  "onboarding": {
+    "tag": "Projet",
+    "sidebar_title": "Parlez-nous de votre projet",
+    "sidebar_body": "Répondez à quelques questions et nous vous enverrons une proposition personnalisée en moins de 48 heures.",
+    "steps": {
+      "labels": ["Type", "Situation", "Détails", "Fonctions", "Investissement", "Contact"],
+      "step1": {
+        "title": "De quel type de projet avez-vous besoin ?",
+        "subtitle": "Vous pouvez sélectionner plusieurs options.",
+        "options": [
+          { "value": "web", "label": "Site web", "desc": "Landing, corporate, e-commerce, CMS" },
+          { "value": "app", "label": "Application web", "desc": "Tableau de bord, plateforme, SaaS, système interne" },
+          { "value": "mobile", "label": "App mobile", "desc": "iOS, Android" },
+          { "value": "software", "label": "Logiciel sur mesure", "desc": "Systèmes, automatisation, intégrations" }
+        ]
+      },
+      "step2": {
+        "title": "Quelle est votre situation actuelle ?",
+        "options": [
+          { "value": "nothing", "label": "Je n'ai rien actuellement" },
+          { "value": "bad_web", "label": "J'ai un site qui ne me représente pas" },
+          { "value": "redesign", "label": "Je veux redesigner quelque chose d'existant" },
+          { "value": "new_features", "label": "J'ai besoin de nouvelles fonctionnalités" },
+          { "value": "idea_only", "label": "J'ai seulement l'idée, rien de construit" }
+        ]
+      },
+      "step3": {
+        "title": "Parlez-nous de votre projet",
+        "fields": {
+          "business_name": "Nom de l'entreprise ou du projet",
+          "business_desc": "Que fait votre entreprise ?",
+          "problem": "Quel problème ce projet résout-il ?"
+        }
+      },
+      "step4": {
+        "title": "Quelles fonctionnalités avez-vous besoin ?",
+        "subtitle": "Sélectionnez tout ce qui s'applique.",
+        "options": [
+          "Design depuis zéro",
+          "Éditer le contenu moi-même (CMS)",
+          "Connexion utilisateur",
+          "Paiements en ligne",
+          "Boutique / catalogue",
+          "Planification / réservations",
+          "Tableau de bord",
+          "Rapports et métriques",
+          "Intégration avec d'autres systèmes",
+          "Notifications par email",
+          "Multilingue",
+          "SEO et visibilité Google",
+          "Animations premium",
+          "Je ne sais pas encore"
+        ]
+      },
+      "step5": {
+        "title": "Budget et délai",
+        "budget_label": "Budget approximatif",
+        "timeline_label": "Quand avez-vous besoin du projet ?",
+        "timelines": [
+          { "value": "urgent", "label": "Urgent", "desc": "Moins de 3 semaines · +30-50%" },
+          { "value": "1-2mo", "label": "1 à 2 mois", "desc": "Projets standard" },
+          { "value": "2-4mo", "label": "2 à 4 mois", "desc": "Projets complexes" },
+          { "value": "open", "label": "Sans date définie", "desc": "Le plus économique" }
+        ]
+      },
+      "step6": {
+        "title": "Comment vous contacter ?",
+        "fields": {
+          "name": "Nom",
+          "email": "Adresse email"
+        },
+        "contact_methods": [
+          { "value": "email_only", "label": "Email seulement — sans appels" },
+          { "value": "whatsapp", "label": "WhatsApp est bien pour coordonner" },
+          { "value": "videocall", "label": "Je préfère un appel vidéo directement" }
+        ]
+      }
+    },
+    "buttons": {
+      "next": "Suivant",
+      "back": "Retour",
+      "submit": "Envoyer la demande"
+    },
+    "success": {
+      "title": "Demande reçue",
+      "subtitle": "Nous vous contacterons dans moins de 48 heures.",
+      "steps": [
+        "Nous examinons votre demande en détail",
+        "Nous préparons une proposition personnalisée",
+        "Nous vous contactons pour planifier un appel",
+        "Nous commençons à travailler ensemble"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "L'image que votre esprit conçoit, traduite en code.",
+    "email": "hola@phantasia.cl",
+    "site": "phantasia.cl",
+    "rights": "Tous droits réservés."
+  }
+}

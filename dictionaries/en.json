@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "process": "Process",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "cta": "Tell us"
+  },
+  "hero": {
+    "title_1": "The image your mind conceives,",
+    "title_2": "made code",
+    "subtitle": "We design and develop websites, applications and custom software with deliberate precision — where every decision has a reason.",
+    "cta_primary": "Start a project",
+    "cta_secondary": "View services",
+    "scroll": "SCROLL"
+  },
+  "quote": {
+    "symbol": "φ",
+    "greek": "φαντασία",
+    "text": "The mental representation of that which does not yet exist in the physical world, but is already real in the mind."
+  },
+  "about": {
+    "tag": "The name",
+    "title": "Why Phantasia",
+    "body_1": "In Aristotelian philosophy, <em>phantasía</em> (φαντασία) is the mind's ability to produce internal images — representations of what is not yet visible to the world, but already exists with clarity in thought.",
+    "body_2": "That is exactly our work: taking the image you have in mind — your idea, your business, your vision — and making it real through code.",
+    "etymology": "From ancient Greek φαντασία (phantasía): imagination, mental image, apparition."
+  },
+  "services": {
+    "tag": "Services",
+    "title": "What do we build together?",
+    "items": [
+      {
+        "category": "Web",
+        "name": "Websites",
+        "description": "From high-impact landings to complex corporate platforms. Designed to convert, with precise visual identity and impeccable user experience.",
+        "tags": ["Next.js", "React", "Tailwind", "CMS"]
+      },
+      {
+        "category": "App",
+        "name": "Applications",
+        "description": "Web and mobile platforms that solve real problems. Dashboards, SaaS, internal tools — built to scale with your business.",
+        "tags": ["React", "Node.js", "MySQL", "REST API"]
+      },
+      {
+        "category": "Software",
+        "name": "Custom Software",
+        "description": "Custom systems that adapt to your unique processes. Automation, integrations, specific business logic — without compromises.",
+        "tags": ["Node.js", "Python", "MySQL", "Integrations"]
+      }
+    ]
+  },
+  "process": {
+    "tag": "Process",
+    "title": "How we work",
+    "steps": [
+      { "number": "01", "title": "Listen and understand", "description": "Before writing a single line of code, we understand your business, your users and the real problem you need to solve." },
+      { "number": "02", "title": "Proposal and architecture", "description": "We design the technical and visual solution — stack, structure, flows — with clarity and justification for each decision." },
+      { "number": "03", "title": "Design and prototype", "description": "We build the visual before developing. Every screen validated with you before moving to code." },
+      { "number": "04", "title": "Iterative development", "description": "We work in short cycles with frequent deliveries. You see progress in real time, not just at the end." },
+      { "number": "05", "title": "QA and launch", "description": "Exhaustive testing on real devices and browsers. Clean deploy, no surprises on launch day." },
+      { "number": "06", "title": "Post-launch support", "description": "We don't disappear on delivery. We accompany the project, fix what comes up and evolve with you." }
+    ]
+  },
+  "pricing": {
+    "tag": "Pricing",
+    "title": "Investment by service",
+    "note": "All prices in CLP. Exact quote based on requirements.",
+    "items": [
+      {
+        "tier": "Essential",
+        "name": "Website",
+        "price": "$800K – $2M",
+        "featured": false,
+        "features": ["Custom UI design", "Up to 6 sections", "Fully responsive", "Basic technical SEO", "Contact form", "Vercel deploy"]
+      },
+      {
+        "tier": "Professional",
+        "name": "Web Application",
+        "price": "$2M – $6M",
+        "featured": true,
+        "label": "Most popular",
+        "features": ["Everything above", "User login", "Panel / dashboard", "MySQL database", "REST API", "External integrations", "2 months support"]
+      },
+      {
+        "tier": "Enterprise",
+        "name": "Custom Software",
+        "price": "From $6M",
+        "featured": false,
+        "features": ["Everything above", "Custom architecture", "Automations", "Multiple modules", "Training included", "Extended support"]
+      }
+    ]
+  },
+  "onboarding": {
+    "tag": "Project",
+    "sidebar_title": "Tell us about your project",
+    "sidebar_body": "Answer a few questions and we'll send you a personalized proposal in less than 48 hours.",
+    "steps": {
+      "labels": ["Type", "Situation", "Details", "Features", "Investment", "Contact"],
+      "step1": {
+        "title": "What type of project do you need?",
+        "subtitle": "You can select more than one option.",
+        "options": [
+          { "value": "web", "label": "Website", "desc": "Landing, corporate, e-commerce, CMS" },
+          { "value": "app", "label": "Web Application", "desc": "Dashboard, platform, SaaS, internal system" },
+          { "value": "mobile", "label": "Mobile App", "desc": "iOS, Android" },
+          { "value": "software", "label": "Custom Software", "desc": "Systems, automation, integrations" }
+        ]
+      },
+      "step2": {
+        "title": "What is your current situation?",
+        "options": [
+          { "value": "nothing", "label": "I have nothing currently" },
+          { "value": "bad_web", "label": "I have a website that doesn't represent me" },
+          { "value": "redesign", "label": "I want to redesign something existing" },
+          { "value": "new_features", "label": "I need new features" },
+          { "value": "idea_only", "label": "I only have the idea, nothing built" }
+        ]
+      },
+      "step3": {
+        "title": "Tell us about your project",
+        "fields": {
+          "business_name": "Business or project name",
+          "business_desc": "What does your business do?",
+          "problem": "What problem does this project solve?"
+        }
+      },
+      "step4": {
+        "title": "What features do you need?",
+        "subtitle": "Select all that apply.",
+        "options": [
+          "Design from scratch",
+          "Edit content myself (CMS)",
+          "User login",
+          "Online payments",
+          "Store / catalog",
+          "Scheduling / bookings",
+          "Panel / dashboard",
+          "Reports and metrics",
+          "Integration with other systems",
+          "Email notifications",
+          "Multilanguage",
+          "SEO and Google visibility",
+          "Premium animations",
+          "I don't know yet"
+        ]
+      },
+      "step5": {
+        "title": "Budget and timeline",
+        "budget_label": "Approximate budget",
+        "timeline_label": "When do you need the project?",
+        "timelines": [
+          { "value": "urgent", "label": "Urgent", "desc": "Less than 3 weeks · +30-50%" },
+          { "value": "1-2mo", "label": "1 to 2 months", "desc": "Standard projects" },
+          { "value": "2-4mo", "label": "2 to 4 months", "desc": "Complex projects" },
+          { "value": "open", "label": "No defined date", "desc": "Most economical" }
+        ]
+      },
+      "step6": {
+        "title": "How do we contact you?",
+        "fields": {
+          "name": "Name",
+          "email": "Email address"
+        },
+        "contact_methods": [
+          { "value": "email_only", "label": "Email only — no calls" },
+          { "value": "whatsapp", "label": "WhatsApp is fine to coordinate" },
+          { "value": "videocall", "label": "I prefer a video call directly" }
+        ]
+      }
+    },
+    "buttons": {
+      "next": "Next",
+      "back": "Back",
+      "submit": "Send request"
+    },
+    "success": {
+      "title": "Request received",
+      "subtitle": "We will contact you within 48 hours.",
+      "steps": [
+        "We review your request in detail",
+        "We prepare a personalized proposal",
+        "We contact you to schedule a call",
+        "We start working together"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "The image your mind conceives, made code.",
+    "email": "hola@phantasia.cl",
+    "site": "phantasia.cl",
+    "rights": "All rights reserved."
+  }
+}
