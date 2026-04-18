@@ -23,7 +23,7 @@
   "about": {
     "tag": "The name",
     "title": "Why Phantasia",
-    "body_1": "In Aristotelian philosophy, <em>phantasía</em> (φαντασία) is the mind's ability to produce internal images — representations of what is not yet visible to the world, but already exists with clarity in thought.",
+    "body_1": "For Epictetus, <em>phantasía</em> (φαντασία) is not fantasy — it is the mental representation of something that already exists with full force in the mind, whether perceived, thought, or imagined. Not illusion: the most real form an idea can take before it exists in the world.",
     "body_2": "That is exactly our work: taking the image you have in mind — your idea, your business, your vision — and making it real through code.",
     "etymology": "From ancient Greek φαντασία (phantasía): imagination, mental image, apparition."
   },
@@ -71,24 +71,24 @@
       {
         "tier": "Essential",
         "name": "Website",
-        "price": "$800K – $2M",
+        "price": "$500K – $1.5M",
         "featured": false,
         "features": ["Custom UI design", "Up to 6 sections", "Fully responsive", "Basic technical SEO", "Contact form", "Vercel deploy"]
       },
       {
         "tier": "Professional",
         "name": "Web Application",
-        "price": "$2M – $6M",
+        "price": "$1.5M – $3M",
         "featured": true,
         "label": "Most popular",
-        "features": ["Everything above", "User login", "Panel / dashboard", "MySQL database", "REST API", "External integrations", "2 months support"]
+        "features": ["Includes Essential Plan", "User login", "Panel / dashboard", "PostgreSQL database", "REST API", "External integrations", "2 months support"]
       },
       {
         "tier": "Enterprise",
         "name": "Custom Software",
-        "price": "From $6M",
+        "price": "From $4M",
         "featured": false,
-        "features": ["Everything above", "Custom architecture", "Automations", "Multiple modules", "Training included", "Extended support"]
+        "features": ["Includes Professional Plan", "Custom architecture", "Automations", "Multiple modules", "Training included", "Extended support"]
       }
     ]
   },

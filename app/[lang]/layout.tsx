@@ -18,7 +18,7 @@ export default async function LangLayout({
   const { lang } = await params;
 
   return (
-    <html lang={lang} suppressHydrationWarning>
+    <html lang={lang} className="dark" suppressHydrationWarning>
       <body>
         <Providers>{children}</Providers>
       </body>

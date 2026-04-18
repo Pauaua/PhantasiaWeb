@@ -23,7 +23,7 @@
   "about": {
     "tag": "El nombre",
     "title": "Por qué Phantasia",
-    "body_1": "En la filosofía aristotélica, <em>phantasía</em> (φαντασία) es la capacidad de la mente para producir imágenes internas — representaciones de lo que aún no es visible al mundo, pero que ya existe con claridad en el pensamiento.",
+    "body_1": "Para Epicteto, <em>phantasía</em> (φαντασία) no es una mera fantasía — es la representación mental de algo que ya existe con toda su fuerza en la mente, ya sea lo que percibimos, lo que pensamos o lo que imaginamos. No es ilusión: es la forma más real que una idea puede tener antes de existir en el mundo.",
     "body_2": "Ese es exactamente nuestro trabajo: tomar la imagen que tienes en mente — tu idea, tu negocio, tu visión — y hacerla real a través del código.",
     "etymology": "Del griego antiguo φαντασία (phantasía): imaginación, imagen mental, aparición."
   },
@@ -95,7 +95,7 @@
       {
         "tier": "Esencial",
         "name": "Sitio web",
-        "price": "$800K – $2M",
+        "price": "$500K – $1.5M",
         "featured": false,
         "features": [
           "Diseño UI personalizado",
@@ -109,14 +109,14 @@
       {
         "tier": "Profesional",
         "name": "Aplicación web",
-        "price": "$2M – $6M",
+        "price": "$1.5M – $3M",
         "featured": true,
         "label": "Más popular",
         "features": [
-          "Todo lo anterior",
+          "Incluye Plan Esencial",
           "Login de usuarios",
           "Panel / dashboard",
-          "Base de datos MySQL",
+          "Base de datos PostgreSQL",
           "API REST",
           "Integraciones externas",
           "Soporte 2 meses"
@@ -125,10 +125,10 @@
       {
         "tier": "Enterprise",
         "name": "Software a medida",
-        "price": "Desde $6M",
+        "price": "Desde $4M",
         "featured": false,
         "features": [
-          "Todo lo anterior",
+          "Incluye Plan Profesional",
           "Arquitectura a medida",
           "Automatizaciones",
           "Múltiples módulos",

@@ -206,23 +206,12 @@ export default function HeroSection({ dict }: HeroProps) {
         <div
           style={{
             width: 1,
-            height: "32px",
+            height: "40px",
             background: "var(--brand)",
             opacity: 0.5,
             animation: "bob 2s ease-in-out infinite",
           }}
         />
-        <span
-          style={{
-            fontFamily: "Outfit, sans-serif",
-            fontSize: "10px",
-            letterSpacing: "0.35em",
-            color: "var(--text-3)",
-            textTransform: "uppercase",
-          }}
-        >
-          {dict.hero.scroll}
-        </span>
       </div>
 
       <style>{`

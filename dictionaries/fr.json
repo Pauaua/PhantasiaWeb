@@ -23,7 +23,7 @@
   "about": {
     "tag": "Le nom",
     "title": "Pourquoi Phantasia",
-    "body_1": "Dans la philosophie aristotélicienne, <em>phantasía</em> (φαντασία) est la capacité de l'esprit à produire des images internes — des représentations de ce qui n'est pas encore visible au monde, mais qui existe déjà avec clarté dans la pensée.",
+    "body_1": "Pour Épictète, <em>phantasía</em> (φαντασία) n'est pas une fantaisie — c'est la représentation mentale de quelque chose qui existe déjà avec toute sa force dans l'esprit, qu'il soit perçu, pensé ou imaginé. Pas une illusion : la forme la plus réelle qu'une idée puisse avoir avant d'exister dans le monde.",
     "body_2": "C'est exactement notre travail : prendre l'image que vous avez en tête — votre idée, votre entreprise, votre vision — et la rendre réelle à travers le code.",
     "etymology": "Du grec ancien φαντασία (phantasía) : imagination, image mentale, apparition."
   },
@@ -71,24 +71,24 @@
       {
         "tier": "Essentiel",
         "name": "Site web",
-        "price": "$800K – $2M",
+        "price": "$500K – $1.5M",
         "featured": false,
         "features": ["Design UI personnalisé", "Jusqu'à 6 sections", "Responsive complet", "SEO technique de base", "Formulaire de contact", "Deploy sur Vercel"]
       },
       {
         "tier": "Professionnel",
         "name": "Application web",
-        "price": "$2M – $6M",
+        "price": "$1.5M – $3M",
         "featured": true,
         "label": "Le plus populaire",
-        "features": ["Tout ce qui précède", "Connexion utilisateur", "Tableau de bord", "Base de données MySQL", "API REST", "Intégrations externes", "Support 2 mois"]
+        "features": ["Inclut le Plan Essentiel", "Connexion utilisateur", "Tableau de bord", "Base de données PostgreSQL", "API REST", "Intégrations externes", "Support 2 mois"]
       },
       {
         "tier": "Entreprise",
         "name": "Logiciel sur mesure",
-        "price": "À partir de $6M",
+        "price": "À partir de $4M",
         "featured": false,
-        "features": ["Tout ce qui précède", "Architecture sur mesure", "Automatisations", "Modules multiples", "Formation incluse", "Support étendu"]
+        "features": ["Inclut le Plan Professionnel", "Architecture sur mesure", "Automatisations", "Modules multiples", "Formation incluse", "Support étendu"]
       }
     ]
   },
