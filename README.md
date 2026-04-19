@@ -31,14 +31,7 @@ Sitio web corporativo de [Phantasia](https://phantasia.cl), estudio de diseño y
 
 ---
 
-## Variables de entorno
-
-```env
-DATABASE_URL="postgresql://..."
-RESEND_API_KEY="re_..."
-```
-
----
+## phantasia.cl
 
 ## Licencia
 
