@@ -82,7 +82,6 @@ export default function Footer({ dict }: FooterProps) {
             {[
               { label: dict.nav.services, href: "#servicios" },
               { label: dict.nav.process, href: "#proceso" },
-              { label: dict.nav.pricing, href: "#precios" },
               { label: dict.nav.contact, href: "#proyecto" },
             ].map((link) => (
               <a
