@@ -50,7 +50,7 @@ export async function POST(req: NextRequest) {
         const resend = new Resend(resendKey);
         await resend.emails.send({
           from: "Phantasia <noreply@phantasia.cl>",
-          to: ["hola@phantasia.cl"],
+          to: [process.env.CONTACT_EMAIL ?? "hola@phantasia.cl"],
           subject: `Nueva solicitud de proyecto — ${businessName}`,
           html: `
             <h2>Nueva solicitud de proyecto</h2>

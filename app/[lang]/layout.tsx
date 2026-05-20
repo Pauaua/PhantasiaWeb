@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Providers from "@/components/layout/Providers";
-import "@/app/globals.css";
 
 export const metadata: Metadata = {
   title: "Phantasia — La imagen hecha código",

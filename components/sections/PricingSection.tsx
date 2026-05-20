@@ -5,7 +5,6 @@ import { useEffect, useRef } from "react";
 interface PricingItem {
   tier: string;
   name: string;
-  price: string;
   featured: boolean;
   label?: string;
   features: string[];
@@ -197,19 +196,6 @@ function PricingCard({
       >
         {item.name}
       </h3>
-
-      <div
-        style={{
-          fontFamily: "Cinzel, serif",
-          fontSize: "21px",
-          fontWeight: 400,
-          color: item.featured ? "var(--brand)" : "var(--brand-mid)",
-          marginBottom: "2rem",
-          letterSpacing: "0.04em",
-        }}
-      >
-        {item.price}
-      </div>
 
       <ul style={{ listStyle: "none", padding: 0 }}>
         {item.features.map((feature) => (

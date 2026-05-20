@@ -71,14 +71,12 @@
       {
         "tier": "Essentiel",
         "name": "Site web",
-        "price": "$500K – $1.5M",
         "featured": false,
         "features": ["Design UI personnalisé", "Jusqu'à 6 sections", "Responsive complet", "SEO technique de base", "Formulaire de contact", "Deploy sur Vercel"]
       },
       {
         "tier": "Professionnel",
         "name": "Application web",
-        "price": "$1.5M – $3M",
         "featured": true,
         "label": "Le plus populaire",
         "features": ["Inclut le Plan Essentiel", "Connexion utilisateur", "Tableau de bord", "Base de données PostgreSQL", "API REST", "Intégrations externes", "Support 2 mois"]
@@ -86,7 +84,6 @@
       {
         "tier": "Entreprise",
         "name": "Logiciel sur mesure",
-        "price": "À partir de $4M",
         "featured": false,
         "features": ["Inclut le Plan Professionnel", "Architecture sur mesure", "Automatisations", "Modules multiples", "Formation incluse", "Support étendu"]
       }
@@ -147,8 +144,8 @@
         ]
       },
       "step5": {
-        "title": "Budget et délai",
-        "budget_label": "Budget approximatif",
+        "title": "Quel est votre budget disponible ?",
+        "budget_label": "Quel est votre budget ?",
         "timeline_label": "Quand avez-vous besoin du projet ?",
         "timelines": [
           { "value": "urgent", "label": "Urgent", "desc": "Moins de 3 semaines · +30-50%" },

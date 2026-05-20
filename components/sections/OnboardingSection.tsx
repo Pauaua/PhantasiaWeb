@@ -49,7 +49,7 @@ interface OnboardingProps {
 }
 
 const BUDGET_TIERS = [
-  "< $300K", "$300K", "$500K", "$800K", "$1.2M",
+  "Sin definir", "< $300K", "$300K", "$500K", "$800K", "$1.2M",
   "$1.5M", "$2M", "$3M", "$4M", "$5M", "$6M", "$8M", "$10M+"
 ];
 
@@ -79,7 +79,7 @@ export default function OnboardingSection({ dict, lang }: OnboardingProps) {
     businessDesc: "",
     problemSolving: "",
     features: [],
-    budget: "$800K",
+    budget: "Sin definir",
     timeline: "",
     contactName: "",
     contactEmail: "",

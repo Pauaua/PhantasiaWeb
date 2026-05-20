@@ -71,14 +71,12 @@
       {
         "tier": "Essential",
         "name": "Website",
-        "price": "$500K – $1.5M",
         "featured": false,
         "features": ["Custom UI design", "Up to 6 sections", "Fully responsive", "Basic technical SEO", "Contact form", "Vercel deploy"]
       },
       {
         "tier": "Professional",
         "name": "Web Application",
-        "price": "$1.5M – $3M",
         "featured": true,
         "label": "Most popular",
         "features": ["Includes Essential Plan", "User login", "Panel / dashboard", "PostgreSQL database", "REST API", "External integrations", "2 months support"]
@@ -86,7 +84,6 @@
       {
         "tier": "Enterprise",
         "name": "Custom Software",
-        "price": "From $4M",
         "featured": false,
         "features": ["Includes Professional Plan", "Custom architecture", "Automations", "Multiple modules", "Training included", "Extended support"]
       }
@@ -147,8 +144,8 @@
         ]
       },
       "step5": {
-        "title": "Budget and timeline",
-        "budget_label": "Approximate budget",
+        "title": "How much are you looking to invest?",
+        "budget_label": "What is your budget?",
         "timeline_label": "When do you need the project?",
         "timelines": [
           { "value": "urgent", "label": "Urgent", "desc": "Less than 3 weeks · +30-50%" },
