@@ -34,20 +34,17 @@
       {
         "category": "Web",
         "name": "Sites web",
-        "description": "Des landings à fort impact aux plateformes d'entreprise complexes. Conçus pour convertir, avec une identité visuelle précise et une expérience utilisateur impeccable.",
-        "tags": ["Next.js", "React", "Tailwind", "CMS"]
+        "description": "Des landings à fort impact aux plateformes d'entreprise complexes. Conçus pour convertir, avec une identité visuelle précise et une expérience utilisateur impeccable."
       },
       {
         "category": "App",
         "name": "Applications",
-        "description": "Plateformes web et mobiles qui résolvent des problèmes réels. Tableaux de bord, SaaS, outils internes — construits pour évoluer avec votre entreprise.",
-        "tags": ["React", "Node.js", "MySQL", "API REST"]
+        "description": "Plateformes web et mobiles qui résolvent des problèmes réels. Tableaux de bord, SaaS, outils internes — construits pour évoluer avec votre entreprise."
       },
       {
         "category": "Logiciel",
         "name": "Logiciel sur mesure",
-        "description": "Systèmes personnalisés qui s'adaptent à vos processus uniques. Automatisation, intégrations, logique métier spécifique — sans compromis.",
-        "tags": ["Node.js", "Python", "MySQL", "Intégrations"]
+        "description": "Systèmes personnalisés qui s'adaptent à vos processus uniques. Automatisation, intégrations, logique métier spécifique — sans compromis."
       }
     ]
   },

@@ -34,20 +34,17 @@
       {
         "category": "Web",
         "name": "Websites",
-        "description": "From high-impact landings to complex corporate platforms. Designed to convert, with precise visual identity and impeccable user experience.",
-        "tags": ["Next.js", "React", "Tailwind", "CMS"]
+        "description": "From high-impact landings to complex corporate platforms. Designed to convert, with precise visual identity and impeccable user experience."
       },
       {
         "category": "App",
         "name": "Applications",
-        "description": "Web and mobile platforms that solve real problems. Dashboards, SaaS, internal tools — built to scale with your business.",
-        "tags": ["React", "Node.js", "MySQL", "REST API"]
+        "description": "Web and mobile platforms that solve real problems. Dashboards, SaaS, internal tools — built to scale with your business."
       },
       {
         "category": "Software",
         "name": "Custom Software",
-        "description": "Custom systems that adapt to your unique processes. Automation, integrations, specific business logic — without compromises.",
-        "tags": ["Node.js", "Python", "MySQL", "Integrations"]
+        "description": "Custom systems that adapt to your unique processes. Automation, integrations, specific business logic — without compromises."
       }
     ]
   },

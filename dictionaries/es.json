@@ -34,20 +34,17 @@
       {
         "category": "Web",
         "name": "Sitios web",
-        "description": "Desde landings de alto impacto hasta plataformas corporativas complejas. Diseñadas para convertir, con identidad visual precisa y experiencia de usuario impecable.",
-        "tags": ["Next.js", "React", "Tailwind", "CMS"]
+        "description": "Desde landings de alto impacto hasta plataformas corporativas complejas. Diseñadas para convertir, con identidad visual precisa y experiencia de usuario impecable."
       },
       {
         "category": "App",
         "name": "Aplicaciones",
-        "description": "Plataformas web y móviles que resuelven problemas reales. Dashboards, SaaS, herramientas internas — construidas para escalar con tu negocio.",
-        "tags": ["React", "Node.js", "MySQL", "API REST"]
+        "description": "Plataformas web y móviles que resuelven problemas reales. Dashboards, SaaS, herramientas internas — construidas para escalar con tu negocio."
       },
       {
         "category": "Software",
         "name": "Software a medida",
-        "description": "Sistemas personalizados que se adaptan a tus procesos únicos. Automatización, integraciones, lógica de negocio específica — sin compromisos.",
-        "tags": ["Node.js", "Python", "MySQL", "Integraciones"]
+        "description": "Sistemas personalizados que se adaptan a tus procesos únicos. Automatización, integraciones, lógica de negocio específica — sin compromisos."
       }
     ]
   },

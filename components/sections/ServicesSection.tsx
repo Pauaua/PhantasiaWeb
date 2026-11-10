@@ -6,7 +6,6 @@ interface ServiceItem {
   category: string;
   name: string;
   description: string;
-  tags: string[];
 }
 
 interface ServicesProps {
@@ -186,31 +185,10 @@ function ServiceCard({
           fontSize: "12.5px",
           color: "var(--text-2)",
           lineHeight: 1.75,
-          marginBottom: "1.5rem",
         }}
       >
         {service.description}
       </p>
-
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
-        {service.tags.map((tag) => (
-          <span
-            key={tag}
-            style={{
-              fontFamily: "Outfit, sans-serif",
-              fontSize: "11px",
-              letterSpacing: "0.04em",
-              color: "var(--brand)",
-              background: "var(--accent)",
-              border: "1px solid var(--border)",
-              borderRadius: "4px",
-              padding: "3px 10px",
-            }}
-          >
-            {tag}
-          </span>
-        ))}
-      </div>
     </div>
   );
 }
